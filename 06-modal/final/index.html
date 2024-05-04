@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modal</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- hero -->
+    <header class="hero">
+      <div class="banner">
+        <h1>Colombia</h1>
+        <button class="btn modal-btn" data-modal="modal-overlay1">Ciudades</button>
+        <div class="modal-overlay" id="modal-overlay1">
+          <div class="modal-container">
+            <img src="../final/imagen/ciudades.jpeg" alt="ciudades" class="modal-image" />
+            <button class="close-btn"><i class="fas fa-times"></i></button>
+          </div>
+          </div>
+      </div>
+    </header>
+
+    <body>
+      <!-- hero -->
+      <div class="container">
+
+        <!-- bloque 1 -->
+        <button class="btn modal-btn" data-modal="modal-overlay1">Armenia</button>
+        <div class="modal-overlay" id="modal-overlay1">
+          <div class="modal-container">
+            <img src="../final/imagen/armenia.jpeg" alt="armenia" class="modal-image" />
+            <button class="close-btn"><i class="fas fa-times"></i></button>
+          </div>
+        </div>
+  
+        <!-- bloque 2 -->
+        <button class="btn modal-btn" data-modal="modal-overlay2">Bogotá</button>
+        <div class="modal-overlay" id="modal-overlay2">
+          <div class="modal-container">
+            <img src="../final/imagen/bogota.jpeg" alt="bogota" class="modal-image" />
+            <button class="close-btn"><i class="fas fa-times"></i></button>
+          </div>
+        </div>
+  
+        <!-- bloque 3 -->
+        <button class="btn modal-btn" data-modal="modal-overlay3">Cartagena</button>
+        <div class="modal-overlay" id="modal-overlay3">
+          <div class="modal-container">
+            <img src="../final/imagen/cartagena.jpeg" alt="Cartagena" class="modal-image" />
+            <button class="close-btn"><i class="fas fa-times"></i></button>
+          </div>
+        </div>
+  
+        <!-- bloque  4 -->
+        <button class="btn modal-btn" data-modal="modal-overlay4">Medellín</button>
+        <div class="modal-overlay" id="modal-overlay4">
+          <div class="modal-container">
+            <img src="../final/imagen/medellin.jpeg" alt="Medellín" class="modal-image" />
+            <button class="close-btn"><i class="fas fa-times"></i></button>
+          </div>
+        </div>
+      </div>
+      <!-- javascript -->
+      <script src="app.js"></script>
+    </body>
+</html>
